@@ -12,7 +12,7 @@
 
 -include("record_info_internal.hrl").
 
--type lineno() :: erl_scan:line().
+-type lineno() :: erl_anno:line().
 
 -type erl_form_atom() ::
        {

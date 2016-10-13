@@ -1,0 +1,14 @@
+{application, record_info,
+[
+    {description, "Record Info"},
+    {vsn, "0.1"},
+    {modules, [
+    
+    ]},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib
+    ]},
+    {env, []}
+]}.
